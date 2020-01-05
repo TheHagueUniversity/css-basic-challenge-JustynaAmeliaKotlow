@@ -31,11 +31,12 @@ img {
   width: 300px;
 }
 a {
-  color: #9C7F94
+  color: #A3CDE0;
 ;
 }
 a:hover {
   text-decoration: none;
+  color: #9C7F94;
 }
 h1 {
   font-family: 'Amatic SC';
@@ -48,6 +49,7 @@ h1 {
 }
 h2 {
   font-size: 35px;
+  color: #26222E;
 }
 #subtitle {
   color: #26222e;
@@ -129,7 +131,13 @@ header {
   color:#26222e;
 }
 
-
+.link{
+  padding: 10px;
+  background-color: #26222E;
+}
+.link:hover {
+  text-decoration: none;
+  background-color: #F8E3E2;
 
 /* Education
 ------------------------------------*/
