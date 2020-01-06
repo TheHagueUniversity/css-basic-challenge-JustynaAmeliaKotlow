@@ -138,6 +138,7 @@ header {
 .link:hover {
   text-decoration: none;
   background-color: #F8E3E2;
+} 
 
 /* Education
 ------------------------------------*/
@@ -152,6 +153,16 @@ header {
   width: 60%;
 }
 
+/* MY DAILY WORK/HOBBIES
+------------------------------------*/
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column:hover{
+  opacity:0.5;
+}
 
 /* Contact Info
 ------------------------------------*/
